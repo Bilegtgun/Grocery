@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
+.splash{
+    background-color: #53B175;
+    width: 100vw;
+    height: 100vh;
+}
+.bg{
+    background-image: url('../assets/OBbg.png');
+    width: 100vw;
+    height: 100vh;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    margin-top: 413.7px;
+    margin-left: 73.29px;
+}
+.obcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 414px;
+    height: 442px;
+    padding-top: 454px;
+}
+.icon{
+    margin-top: 32px;
+    width: 48px;
+    height: 56px;
+}
+.wel{
+    margin-top: 35px;
+    width: 265px;
+    height: 86px;
+}
+.get{
+    margin-top: 19px;
+    width: 302px;
+    height: 15px;
+}
+.btn{
+    height: 67px;
+    width: 353px;
+    border-radius: 19px;
+    background-color: #53B175;
+    color: white;
+    font-family: 'ABeeZee', 'sans-serif';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 41px;
+    border: none;
+}
+.botmenu{
+    height: 72px;
+    width: 414px;
+    background: white;
+    box-shadow: 0px -12px 37px rgba(230, 235, 243, 0.034);
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 17px;
+    position: fixed;
+    bottom: 0;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    width: 28px;
+    height: 41px;
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+.q{
+    font-family: 'ABeeZee', 'sans-serif';
+    margin-left: 90px;
+    background-color: #489E67;
+    font-size: 12px;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
